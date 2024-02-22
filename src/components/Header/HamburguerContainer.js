@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const styled = {
     width: "100%",
-    height: 180,
+    height: 170,
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -14,7 +14,7 @@ const styled = {
     fontSize: 15,
     backgroundColor: "rgba(241, 241, 241, .9)",
     position: "absolute",
-    top: 170,
+    top: 177,
     cursor: "pointer",
 }
 
