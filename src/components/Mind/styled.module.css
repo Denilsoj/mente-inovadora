@@ -1,0 +1,122 @@
+.container{
+    width: 1200px;
+    height: 600px;
+    border: 1px solid rgba(224, 45, 33, .80);
+    border-radius: 20px;
+    margin: 80px auto 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.title{
+    font-size: 32px;
+    width: 900px;
+    margin: 20px 0 30px 60px;
+}
+
+.listContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(224, 45, 33, .20);
+    border-radius: 10px;
+    height: 450px;
+    width: 280px;
+}
+.fotoFeras{
+    width: 250px;
+}
+.listContainer li span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.listContainer li span h4 {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        width: 100%;
+        border: none;
+        margin-bottom: 100px;
+    }
+    .title{
+        font-size: 18px;
+        margin-left: 0px;
+        font-weight: 700;
+        text-align: center;
+        width: 100%;
+    }
+    .listContainer{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .listContainer li{
+        width: 200px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+
+    }
+    .listContainer li span h4 {
+        font-size: 12px;
+        text-align: center;
+      
+    }
+    .listContainer li span p {
+        font-size: 8px;
+    }
+    .fotoFeras{
+        width: 120px;
+    }
+}
+@media only screen and 
+(min-width: 600px) and
+(max-width: 820px){
+    .container{
+        width: 100%;
+        border: none;
+        margin-bottom: 100px;
+    }
+    .title{
+        font-size: 32px;
+        font-weight: 700;
+        margin-left: 0;
+       text-align: center;
+       width: 100%;
+    }
+    .listContainer{
+        flex-wrap: wrap;
+        width: 68%;
+        margin: 0 auto;
+    }
+    .listContainer li{
+        width: 220px;
+        height: 300px;
+        display: flex;text-align: center;
+        justify-content: center;
+
+    }
+    .listContainer li span h4 {
+        font-size: 14px;
+        text-align: center;
+      
+    }
+    .listContainer li span p {
+        font-size: 12px;
+    }
+    .fotoFeras{
+        width: 120px;
+    }
+}
