@@ -82,7 +82,7 @@
     }
     .listItem{
         width: 280px;
-        height: 360px;
+        height: 370px;
         font-size: 10px;
     }
     .listItem img{
@@ -105,11 +105,12 @@
     }
     .titleDescription{
         font-size: 10px;
+        margin-bottom: 5px;
     }
     .description span button {
         font-weight: 700;
         font-size: 10px;
-        padding: .3rem .5rem;
+        padding: .5rem 5rem;
         border: none;
         border-radius: 5px;
         background-color: #F9C42F;
@@ -173,7 +174,6 @@
     .title{
         width: 80%;
         margin: 50px auto 50px ;
-    
         font-size: 20px;
         line-height: 1px;
     }
